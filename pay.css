@@ -1,0 +1,107 @@
+.pay
+{position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 5px;
+    top: 15px;
+    overflow: visible;
+}
+.cn{
+    left: 50%;
+    top: 39%;
+    position: absolute;
+    overflow: visible;
+    /* width: 274px; */
+    white-space: nowrap;
+    line-height: 55px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(56,90,100,1);
+}
+.ed{
+    left:50%;
+    top: 50%;
+    position: absolute;
+    overflow: visible;
+    /* width: 316px; */
+    white-space: nowrap;
+    line-height: 55px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(56,90,100,1);
+}
+
+.cvv{
+    left: 50%;
+    top: 61%;
+    position: absolute;
+    overflow: visible;
+    /* width: 89px; */
+    white-space: nowrap;
+    line-height: 55px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(56,90,100,1);
+}
+
+input[type=Number]
+  { left: 90%;
+    width: 300px;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 8px #8b8b8b;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+  }
+
+  input[type=date]
+  { left: 90%;
+    width: 300px;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 8px #8b8b8b;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+  }
+
+  #submit{
+ position: absolute;
+ top: 75%;
+ left: 55%;
+ width: 500px;
+ height: 50px;
+ background:#ff4f5a;;
+ font-family: Arial;
+ border-radius: 50px;
+ font-weight: bold;
+ font-size: 30px;
+ color: rgb(255, 255, 255);
+ cursor: pointer;
+ border: none;
+
+
+}
